@@ -156,12 +156,12 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.setAttribute("data-via", "catalinamo");
-  tweet.setAttribute("data-url", "http://git.io/2048");
+  tweet.setAttribute("data-url", "http://catalinamo.git.io/spacescoop");
   tweet.setAttribute("data-counturl", "http://catalinamo.github.io/spacescoop/");
   tweet.textContent = "Tweet";
 
   var text = "I scored " + this.score + " points at Spacescoop, a game where you " +
-             "join space images to score high! #spacescoopgame";
+             "join space images to score high! #spacescoop";
   tweet.setAttribute("data-text", text);
 
   return tweet;

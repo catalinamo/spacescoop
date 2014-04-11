@@ -156,7 +156,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.setAttribute("data-via", "catalinamo");
-  tweet.setAttribute("data-url", "http://catalinamo.git.io/spacescoop");
+  tweet.setAttribute("data-url", "http://catalinamo.git.io/spacescoop/");
   tweet.setAttribute("data-counturl", "http://catalinamo.github.io/spacescoop/");
   tweet.textContent = "Tweet";
 

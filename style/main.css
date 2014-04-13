@@ -28,7 +28,7 @@ input {
   margin: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none; }
+  appearance: none; };
   input[type="text"], input[type="email"] {
     cursor: auto;
     background: #fcfbf9;
@@ -385,6 +385,8 @@ hr {
   -moz-transition-property: -moz-transform;
   transition-property: transform; }
   .tile .tile-inner {
+    background-position: center center;
+    background-size: cover !important;
     border-radius: 3px;
     background: #eee4da;
     text-align: center;
